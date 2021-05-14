@@ -36,13 +36,8 @@ function handleRequest(request) {
       align="center"
       style="font-family: Avenir, Helvetica, Arial, sans-serif; font-size: 1.5rem;"
     >
-      <h1>Return JSON and/or HTML Example</h1>
-      <p>
-        <a href="/html">/html</a> - responds with HTML to the request.
-      </p>
-      <p>
-        <a href="/json">/json</a> - responds with JSON to the request.
-      </p>
+      <h2>ローカル環境なしで開発実験</h2>
+      <p>これは github, codespaces, deno deploy の連携実験です。ローカル開発ゼロです。</p>
     </body>`,
     {
       headers: {
